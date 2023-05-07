@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <a href="./pro-working.html"><img src="./img/pro-working-only.png" alt="pro-selling only img" width="22%" height="18%"></a>
+        <a href="./user.html"><img src="./img/white-user.png" alt="user icon" width="30%" height="22%"></a>
+        <a href="./index.html">Accueil</a>
+        <a href="./connexion.html">S'identifier</a>
+        <a href="#">À propos</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./pro-selling.html">Pro-selling</a>
+        <div class="search-container">
+            <input type="text" placeholder="Recherche..." class="search-input">
+            <button class="search-btn">Chercher</button>
+        </div>
+    </div>
+    <div class="main-content registration-container">
+        <form class="registration-form">
+            <h2>Inscription</h2>
+            <input type="text" placeholder="Nom" required>
+            <input type="text" placeholder="Prénom" required>
+            <input type="date" placeholder="Date de naissance" required>
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Mot de passe" required>
+            <input type="text" placeholder="Adresse" required>
+            <div class="checkbox-container">
+                <label>
+                    <input type="checkbox" name="entreprise">
+                    Je tiens une entreprise
+                </label>
+            </div>
+            <button type="submit">S'inscrire</button>
+            <h5><a href="./connexion.html" class="pas-inscrit">Déjà inscrit ?</a> </h5>
+        </form>
+    </div>
+</body>
+</html>

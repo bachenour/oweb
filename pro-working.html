@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Pro-selling</title>
+   <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <a href="./pro-working.html"><img src="./img/pro-working-only.png" alt="pro-selling only img" width="22%" height="18%"></a>
+        <a href="./user.html"><img src="./img/white-user.png" alt="user icon" width="30%" height="22%"></a>
+        <a href="./index.html">Accueil</a>
+        <a href="./connexion.html">S'identifier</a>
+        <a href="#">À propos</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./pro-selling.html">Pro-selling</a>
+        <div class="search-container">
+            <input type="text" placeholder="Recherche..." class="search-input">
+            <button class="search-btn">Chercher</button>
+        </div>
+    </div>
+    <div class="main-content">  
+        <div class="filters">
+            <div class="filter-group">
+                <h3>Domaine</h3>
+                <select>
+                    <option value="informatique">Informatique</option>
+                    <option value="education">Éducation</option>
+                    <option value="sciences">Sciences</option>
+                    <option value="art">Art</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <h3>Prix</h3>
+                <input type="range" min="0" max="10000" value="0" class="price-range">
+                <span class="price-value">0</span>€
+            </div>
+            <div class="filter-group">
+                <h3>Expérience</h3>
+                <input type="number" min="0" class="experience-input" placeholder="Années d'expérience">
+                <span class="experience-value"></span>
+            </div>
+        </div>
+        <div class="carousel">
+            <div class="profile-card caroussel-cv">
+                <img src="./img/personnage.png" alt="Profile Image" class="profile-image">
+                <h3>DURAND Marc</h3>
+                <h4>Domaine:</h4>
+                <p>Informatique</p>
+                <h4>Prix:</h4>
+                <p>5000€ / heure</p>
+                <h4>Expérience:</h4>
+                <p>1 an</p>
+                <h4>Disponibilité:</h4>
+                <p>Immdiate</p>
+                <h4>Description: </h4>
+                <p>
+                    Bonjour, je suis Marc Durand, je suis un informaticien de formation, je suis disponible pour vous aider à résoudre vos problèmes informatiques.
+                </p>
+            </div>
+            <div class="profile-card caroussel-cv">
+                <img src="./img/peronnage-feminin.png" alt="Profile Image" class="profile-image">
+                <h3>PIERRE Marie</h3>
+                <h4>Domaine:</h4>
+                <p>Mécanique</p>
+                <h4>Prix:</h4>
+                <p>200 / heure</p>
+                <h4>Expérience:</h4>
+                <p>3 ans</p>
+                <h4>Disponibilité:</h4>
+                <p>Durant le mois de mai 2023</p>
+                <h4>Description: </h4>
+                <p>
+                    Bonjour, je suis Pierre Marie, je suis un mécanicien de formation, je suis disponible pour vous aider à résoudre vos problèmes mécaniques.
+            </div>
+            <div class="profile-card caroussel-cv">
+                <img src="./img/peronnage-feminin.png" alt="Profile Image" class="profile-image">
+                <h3>TABLE Léa</h3>
+                <h4>Domaine:</h4>
+                <p>Infirmerie</p>
+                <h4>Prix:</h4>
+                <p>15 / heure</p>
+                <h4>Expérience:</h4>
+                <p>2 ans</p>
+                <h4>Disponibilité:</h4>
+                <p>Du lundi au jeudi</p>
+                <h4>Description: </h4>
+                <p>
+                    Bonjour, je suis Léa Table, je suis une infirmière en formation, je cherche un stage afin d'acquérir de l'expérience dans le domaine.
+            </div>
+            <div class="profile-card caroussel-cv">
+                <img src="./img/personnage.png" alt="Profile Image" class="profile-image">
+                <h3>ROUAU Vincent</h3>
+                <h4>Domaine:</h4>
+                <p>Commerce</p>
+                <h4>Prix:</h4>
+                <p>20 / heure</p>
+                <h4>Expérience:</h4>
+                <p>0 ans</p>
+                <h4>Disponibilité:</h4>
+                <p>Immdiate</p>
+                <h4>Description: </h4>
+                <p>
+                    Bonjour, je suis Vincent Rouau, je suis un commerçant en formation, je suis disponible pour vous aider à résoudre vos problèmes de commerce en alternance.
+                </p>
+            </div>
+            <div class="profile-card caroussel-cv">
+                <img src="./img/personnage.png" alt="Profile Image" class="profile-image">
+                <h3>ACKERMAN Livai</h3>
+                <h4>Domaine:</h4>
+                <p>Informatique</p>
+                <h4>Prix:</h4>
+                <p>5000€ / heure</p>
+                <h4>Expérience:</h4>
+                <p>1 an</p>
+                <h4>Disponibilité:</h4>
+                <p>Immdiate</p>
+                <h4>Description: </h4>
+                <p>
+                    Bonjour, je suis Marc Durand, je suis un informaticien en formation, je suis disponible pour vous aider à résoudre vos problèmes informatiques durant un stage de 6 mois.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
